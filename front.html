@@ -25,7 +25,7 @@
 </head>
 <body   data-target=".navbar-collapse" data-offset="50" class="force-overflow" id="style-3"  on >
 <div id="loader">
-
+	aswin
 	<!-- <div class="windows8">
         <div class="wBall" id="wBall_1">
             <div class="wInnerBall"></div>
@@ -73,26 +73,16 @@
 		</div>
 	</div>
 </section>  -->
-<!--<div id="regcount" class="wow fadeInRight">Welcome</div>94fb5851-9222-456c-b34c-8a66dc505f24
- -->
+<!--<div id="regcount" class="wow fadeInRight">Welcome</div> -->
 <!-- home section -->
 <section id="home">
 	<div class="container">
 
 
-
         <div id="text2" align="center" class="clr" >
         		<img id="rmc1" class="wow bounceIn img-responsive shadow" width="350" height="300" src="images/sample.png"/>
-				<h1 id="rmc2" class="wow bounceIn" style="color:#ffffff">Muthoot Institute of Technology and Science</h1><!--
-                <h1 id="impdate" class="wow fadeInUp" data-wow-delay="1.0s">on MARCH 23,24</h1>  -->
-								<div style="margin:5px;width:100%;height:50px;font-size:25px;color:rgb(250,250,250);font-weight:bold;text-shadow:0 0 7px cyan;text-align:center;">
-									<br/>
-									<br/>
-<div id="screen" style="display:inline-block;">#Empowering India</div>
-<div class="blink" style="display:inline-block;">|
-</div>
-
-</div>
+				<h1 id="rmc2" class="wow bounceIn" style="color:#ffffff">#Empowering India</h1>
+                <h1 id="impdate" class="wow fadeInUp" data-wow-delay="1.0s">on MARCH 23,24</h1>
 		</div>
 	</div>
 </section>
@@ -110,45 +100,4 @@
 <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
 <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
 <script src="js/index.js"></script>
-<script>
-
-var screen=document.getElementById("screen");
-var k = 1;
-var c = 1;
-var s = 0;
-var delay = 0;
-var text = ["#Empowering India","March 23,24"];
-
-
-function txtbot()
-{
-
-if(c==1)
-{
-k++;
-screen.innerHTML = text[s].substring(0,k);
-if(k==text[s].length){c=0;}
-}
-
-if(c==-1)
-{
-k--;
-screen.innerHTML = text[s].substring(0,k);
-if(k==0){c=1;s++;
-if(s==text.length){s=0;}}
-}
-
-if(c==0)
-{delay++;if(delay==60){c=-1;delay=0;}
-}
-
-}
-var invoke=setInterval(txtbot,50);
-
-
-window.onload = function()
-{
-remove('mask');
-}
-</script>
 </html>
