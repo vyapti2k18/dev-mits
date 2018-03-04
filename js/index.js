@@ -10,9 +10,9 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#fff"
+      "value": "#3F51B5"
     },
-    
+
     "shape": {
       "type": "circle",
       "stroke": {
