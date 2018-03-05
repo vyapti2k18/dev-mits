@@ -365,7 +365,7 @@ Scroll Bar
 ========================================================================== */
 .force-overflow
 {
-	min-height: 5000px;
+	min-height: 800px;
 }
 
 #style-3::-webkit-scrollbar-track
