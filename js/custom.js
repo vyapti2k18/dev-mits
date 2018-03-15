@@ -229,7 +229,7 @@ $(function(){
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
-       "images/bg3.png",
+       "images/bg4.jpg",
        "images/s4.jpg",
 	   "images/s4.jpg",
        "images/s4.jpg",
